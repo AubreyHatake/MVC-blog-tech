@@ -2,6 +2,7 @@
   "dependencies": {
     "express": "^4.18.2",
     "express-session": "^1.17.3",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "user": "^0.0.0"
   }
 }
