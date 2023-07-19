@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(244, 176, 240);
+  background-color: rgb(244, 213, 242);
 
 }
 
@@ -15,14 +15,14 @@ body {
 
 .blogTitle {
   text-decoration: none;
-  color: darkkhaki;
+  color: rgb(115, 189, 107);
 }
 
 .blogDesc {
   border-style: solid;
   margin-bottom: 5px;
   padding: 2px;
-  background-color: rgb(113, 143, 62);
+  background-color: rgb(143, 62, 136);
 }
 
 .blogDescMain {
@@ -39,13 +39,13 @@ body {
   font-style: italic;
   font-size: 12px;
   padding: 5px;
-  color: darkkhaki;
+  color: rgb(189, 107, 183);
 }
 
 .blogBoxCont {
 	margin-top: 10px;
   border-style: solid;
-  background-color: rgb(113, 143, 62);
+  background-color: rgb(143, 62, 116);
 }
 
 .formCont {
@@ -61,7 +61,7 @@ body {
   margin-right: auto;
   margin-top: 10px;
   max-width: 75%;
-  background-color: rgb(113, 143, 62);
+  background-color: rgb(127, 62, 143);
 }
 
 .commentOwner {
@@ -83,19 +83,19 @@ body {
 }
 
 .headerRow {
-  background-color: black;
+  background-color: rgb(69, 46, 91);
   margin-bottom: 10px;
 }
 
 a:link {
-  color: rgb(29, 200, 23);
+  color: rgba(62, 127, 179, 0.812);
 }
 a:visited {
-  color: rgb(182, 179, 41);
+  color: rgba(62, 127, 179, 0.812);
 }
 
 a:hover {
-  color: rgb(57, 233, 54);
+  color: rgba(62, 127, 179, 0.812)
 }
 
 .login{

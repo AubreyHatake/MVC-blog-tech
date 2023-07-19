@@ -6,25 +6,25 @@
 			<div class="row  justify-content-center headerRow">
       <div class="col-8">
         <h2>
-          <a class="blogTitle text-uppercase" href="/blog/{{b.id}}">{{b.title}}</a>
+          <a class="blogTitle text-uppercase" id="blog-title" href="/blog/{{b.id}}">{{b.title}} </a>
         </h2>
       </div>
 
       <div class="col-4">
-        <p class="blogCreate text-right">Created by
+        <p class="blogCreate text-right" id="content">Created by
           {{b.user.username}}
           on
           {{format_date b.date_created}}
         </p>
       </div>
 			</div>
-    <div class="blogDesc">
+    <div class="blogDesc" id="new-blog-form">
       <p class="text-center blogDescMain">
         {{b.description}}
       </p>
     </div>
     </div>
-
+<script src="/js/add-post.js"></script>
   </div>
 
 {{/each}}

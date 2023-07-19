@@ -29,10 +29,11 @@ router.get('/', withAuth, (req, res) => {
       res.status(500).json(err);
     });
 });
-router.get('/edit/:id', withAuth, (req, res) => {
+router.get('/blog/:id', withAuth, (req, res) => {
   Blog.findOne({
     where: {
       id: req.params.id,
+      username: req.session.username,
     },
   
     include: [
