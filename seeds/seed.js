@@ -21,6 +21,7 @@ const seedDatabase = async () => {
   }
 
   const comments = await Comment.bulkCreate(commentData, {
+    individualHooks: true,
     returning: true,
   });
 

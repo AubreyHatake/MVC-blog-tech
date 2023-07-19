@@ -1,6 +1,17 @@
 [
-    {
-      "title": "Test Blog",
-      "description": "Test"
-    }
-  ]
+  {
+    "title": "My Seed Post 1",
+    "content": "So this is a post - this is my first seed post.  This post weas created as part of the seed operation",
+    "user_id": 1
+  },
+  {
+    "title": "My Seed Post 2",
+    "content": "This is the second post.  This port needs to be pretty long.  Nulla eiusmod anim exercitation velit id minim tempor ipsum do non nostrud id.",
+    "user_id": 1
+  },
+  {
+    "title": "Et fugiat et cillum anim commodo consequat nulla tempor ex.",
+    "content": "Ut sunt adipisicing et veniam sunt reprehenderit quis labore esse amet esse pariatur laboris. Ad fugiat do minim consequat non nostrud labore voluptate incididunt minim. Laborum in eu amet et. Cupidatat velit do in irure aute nostrud.  Eiusmod sunt aliquip consequat ipsum ea aliqua dolor tempor Lorem. Ipsum sunt ullamco qui Lorem sint. Anim enim consequat eu elit aliqua fugiat sint sit. Irure qui fugiat Lorem aliqua eiusmod sit mollit ad Lorem adipisicing. Ipsum sint occaecat tempor fugiat deserunt ut officia quis. Eu eu et cillum sit nisi velit sit cillum.",
+    "user_id": 3
+  }
+]

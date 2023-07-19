@@ -27,6 +27,7 @@
     <h3>Current Blogs:</h3>
 
     {{#each blogs as |blog|}}
+    {{log blogs}}
     <div class="row mb-2">
       <div class="col-md-8">
         <h4><a href="/blog/{{blog.id}}">{{blog.title}}</a></h4>

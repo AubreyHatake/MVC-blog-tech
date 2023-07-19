@@ -1,4 +1,4 @@
-{{#each blogs as |blog|}}
+{{#each blog as |b|}}
 
   <div class="row">
 
@@ -6,21 +6,21 @@
 			<div class="row  justify-content-center headerRow">
       <div class="col-8">
         <h2>
-          <a class="blogTitle text-uppercase" href="/blog/{{blog.id}}">{{blog.title}}</a>
+          <a class="blogTitle text-uppercase" href="/blog/{{b.id}}">{{b.title}}</a>
         </h2>
       </div>
 
       <div class="col-4">
         <p class="blogCreate text-right">Created by
-          {{blog.user.username}}
+          {{b.user.username}}
           on
-          {{format_date blog.date_created}}
+          {{format_date b.date_created}}
         </p>
       </div>
 			</div>
     <div class="blogDesc">
       <p class="text-center blogDescMain">
-        {{blog.description}}
+        {{b.description}}
       </p>
     </div>
     </div>
