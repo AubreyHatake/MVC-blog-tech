@@ -2,12 +2,13 @@
 
 The deployed link will go here: 
 
+In this application the user is able to create blog posts and view other users posts. The user is able to log in and sign up on this page with a username and password. 
 
 ## Table of Contents
 
 - [User story](#User-story)
 - [Acceptance criteria](#Acceptance-criteria)
-
+- [Resources](#Resources)
 
 ## User Story
 AS A developer who writes about tech
@@ -80,3 +81,6 @@ THEN I am signed out of the site
 WHEN I am idle on the site for more than a set time
 
 THEN I am able to view posts and comments but I am prompted to log in again before I can add, update, or delete posts
+
+## Resources 
+I was able to collaborate with tutors and classmates to finish this asignment.
