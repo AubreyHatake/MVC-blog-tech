@@ -1,8 +1,9 @@
 # MVC-blog
 
-The deployed link will go here: 
+The deployed link will go here: https://mvcblogtech-629784634416.herokuapp.com/
 
 In this application the user is able to create blog posts and view other users posts. The user is able to log in and sign up on this page with a username and password. 
+![Screenshot](<assets/Screenshot 2023-08-07 181452.jpg>)
 
 ## Table of Contents
 
